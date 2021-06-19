@@ -86,7 +86,7 @@ $.ajax({
       },
   error: function(data) {
         //esta función se activa si ocurre algún error durante el proceso
-        document.write('Ha ocurrido un error para cargar los datos')
+        alert('Ha ocurrido un error para cargar los datos');
         },
         
   })
